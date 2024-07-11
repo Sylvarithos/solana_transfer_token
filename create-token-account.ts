@@ -17,6 +17,10 @@ console.log(
 const tokenMintAccount = new PublicKey(
   "7qy2JDJ7XvtTGxWypKZK8NFxSV6ttrmdiZLpchgExHj7"
 );
+// Subtitute in your token mint account from create-token-mint.ts
+// const tokenMintAccount = new PublicKey(
+//   "7qy2JDJ7XvtTGxWypKZK8NFxSV6ttrmdiZLpchgExHj7"
+// );
 
 // Here we are making an associated token account for our own address, but we can 
 // make an ATA on any other wallet in devnet!

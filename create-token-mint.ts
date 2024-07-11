@@ -11,7 +11,7 @@ const connection = new Connection(clusterApiUrl("devnet"));
 const user = getKeypairFromEnvironment("SECRET_KEY");
 
 console.log(
-  `🔑 Loaded our keypair securely, using an env file! Our public key is: ${user.publicKey.toBase58()}`
+  `🔑 Loaded our keypair securely, using an env file! Our Public key is: ${user.publicKey.toBase58()}`
 );
 
 // This is a shortcut that runs:
