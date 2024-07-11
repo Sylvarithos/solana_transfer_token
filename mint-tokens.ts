@@ -33,4 +33,4 @@ const transactionSignature = await mintTo(
 
 const link = getExplorerLink("transaction", transactionSignature, "devnet");
 
-console.log(`✅ Success! Mint Token Transaction: ${link}`);
+console.log(`✅ Success! Mint Token transaction: ${link}`);
